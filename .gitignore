@@ -1,0 +1,4 @@
+// here we put all things gthat we don't want to expose on our github repository or server
+
+
+node_modules/
