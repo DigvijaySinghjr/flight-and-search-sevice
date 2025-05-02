@@ -50,4 +50,4 @@ class CityService {
     }
 }
 
-module.expoorts = CityService;
+module.exports = CityService;
