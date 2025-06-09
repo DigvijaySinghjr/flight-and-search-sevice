@@ -6,6 +6,7 @@
  
  const setupAndStartServer = async () => {
   
+
     //create  the express object
     const app=express();
 
@@ -14,9 +15,10 @@
 
     app.use('/api', ApiRoutes);
 
-    app.listen(PORT, () =>{
+    app.listen(PORT, async () =>{
         //console.log(process.env);
         console.log(`Server started at ${PORT}`)
+        
     });
  }
 
