@@ -49,6 +49,6 @@ module.exports = FlightService;
 * arrivalTime
 * departureTime
 * price
-* totalSeats   ->   fetch from airplane
+* totalSeats   ->   fetch from airplane  (not include in request from user)
 }
 */
